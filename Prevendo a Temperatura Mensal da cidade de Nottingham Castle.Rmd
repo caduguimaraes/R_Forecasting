@@ -77,7 +77,7 @@ hist(nottem) #Dados não apresentam dist normal. A ser confirmado através do Sh
 ```
 ```{r}
 #teste de normalidade
-shapiro.test(nottem) # p-value 1.32 (bem superior ao 0,05), confirmando a não distribuição dos dados
+shapiro.test(nottem) # p-value 1.32 (bem superior ao 0,05), confirmando a distribuição normal dos dados
 ```
  
 ```{r}
